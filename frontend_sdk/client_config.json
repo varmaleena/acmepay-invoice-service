@@ -1,0 +1,8 @@
+{
+  "sdk_name": "@acmepay/merchant-web-uploader",
+  "sdk_version": "2.13.0",
+  "allowed_upload_mb": 10,
+  "expected_retry_env": "LEGACY_RETRY_LIMIT",
+  "upload_endpoint": "/v1/invoices/upload",
+  "allowed_mime_types": ["application/pdf", "image/png", "text/csv"]
+}
